@@ -1,5 +1,4 @@
 body {
-    font-family: 'Arial', sans-serif;
     background-color: #f9f9f9; 
     color: #000000;
     margin: 0;
@@ -19,6 +18,12 @@ header h1 {
     margin: 0;
 }
 
+kiemeles {
+    background-color: #2a5298;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 4px 4px 4px;
+}
 
 .btn-primary {
     background-color: #1e3c72;

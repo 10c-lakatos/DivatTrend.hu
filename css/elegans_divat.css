@@ -1,0 +1,77 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background: linear-gradient(135deg, #2c549e, #1e3c72);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-text, .hero-subtext {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+kiemeles {
+    background-color: #2a5298;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 4px 4px 4px;
+}
+
+#trendek {
+    background-color: #cbd9f1;
+}
+
+.trend-card {
+    background-color: #fff;
+    border: 1.5px solid #1e3c72;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trend-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px #122b58;
+    background: #d8f3eb;
+}
+
+.styled-img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 2.5px solid #1e3c72;
+    border-radius: 10px;
+}
+
+.styled-img:hover {
+    transform: scale(1.1);
+    border-color: #1e3c72;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #1e3c72;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(38, 70, 83, 0.3);
+}
+
+#galeria {
+    padding: 50px 0;
+    background-color: #e9f5f2;
+}
+
+.img-fluid {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

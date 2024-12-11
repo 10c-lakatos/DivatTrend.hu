@@ -27,3 +27,9 @@ img {
 img:hover {
     transform: scale(1.05);
 }
+kiemeles {
+    background-color: #2a5298;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 4px 4px 4px;
+}
